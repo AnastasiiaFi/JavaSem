@@ -8,12 +8,55 @@ public class Main {
         Set<Laptop> set = new HashSet<>();
 
         Laptop laptop1 = new Laptop();
-        laptop1.setRam(4);
+        laptop1.setRam(8);
         laptop1.setHdd(256);
-        laptop1.setOperatingSystem("Windows");
+        laptop1.setOperatingSystem("Linux");
         laptop1.setColor("black");
 
+        Laptop laptop2 = new Laptop();
+        laptop2.setRam(8);
+        laptop2.setHdd(1024);
+        laptop2.setOperatingSystem("Windows");
+        laptop2.setColor("black");
+
+        Laptop laptop3 = new Laptop();
+        laptop3.setRam(4);
+        laptop3.setHdd(512);
+        laptop3.setOperatingSystem("Linux");
+        laptop3.setColor("black");
+
+        Laptop laptop4 = new Laptop();
+        laptop4.setRam(16);
+        laptop4.setHdd(2048);
+        laptop4.setOperatingSystem("Windows");
+        laptop4.setColor("black");
+
+        Laptop laptop5 = new Laptop();
+        laptop5.setRam(4);
+        laptop5.setHdd(512);
+        laptop5.setOperatingSystem("Windows");
+        laptop5.setColor("black");
+
+        Laptop laptop6 = new Laptop();
+        laptop6.setRam(16);
+        laptop6.setHdd(512);
+        laptop6.setOperatingSystem("без ОС");
+        laptop6.setColor("black");
+
+        Laptop laptop7 = new Laptop();
+        laptop7.setRam(32);
+        laptop7.setHdd(2048);
+        laptop7.setOperatingSystem("macOS");
+        laptop7.setColor("black");
+
+
         set.add(laptop1);
+        set.add(laptop2);
+        set.add(laptop3);
+        set.add(laptop4);
+        set.add(laptop5);
+        set.add(laptop6);
+        set.add(laptop7);
 
         Set<Laptop> filteredSet = new HashSet<>(set);
 
